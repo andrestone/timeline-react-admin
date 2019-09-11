@@ -30,11 +30,11 @@ const TimelineEmptyView = ({ classes }) => (
         <CardContent className={classes.content}>
             <InfoIcon color="primary" className={classes.icon} />
             <div>
-                <Typography variant="subheading" gutterBottom>
+                <Typography variant="subtitle1" gutterBottom>
                     This page will show the actions of users once they start
                     using the application.
                 </Typography>
-                <Typography variant="subheading">
+                <Typography variant="subtitle1">
                     You will even see your own actions recorded here. Try adding
                     a new post by using the "Posts" menu.
                 </Typography>
