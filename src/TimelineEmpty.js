@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import InfoIcon from '@material-ui/icons/Info';
+import InfoIcon from '@material-ui/core/Icon';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = {
