@@ -41,7 +41,7 @@ const TimelineLoadedView = ({
         <div className={classes.root}>
             {days.map(day => (
                 <div key={day} className={classes.day}>
-                    <Typography variant="subheading" gutterBottom>
+                    <Typography variant="subtitle1" gutterBottom>
                         {getDayString(day)}
                     </Typography>
                     <EventList events={eventsByDay[day]} />
